@@ -7,19 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E6D52A6255F0563009D0377 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6D52A5255F0563009D0377 /* TabBar.swift */; };
+		9E6D52AC255F06D3009D0377 /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6D52AB255F06D3009D0377 /* TabButton.swift */; };
 		9E8E51EF255ED6EE00C14184 /* MealMenuCustomTabBatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8E51EE255ED6EE00C14184 /* MealMenuCustomTabBatApp.swift */; };
 		9E8E51F1255ED6EE00C14184 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8E51F0255ED6EE00C14184 /* ContentView.swift */; };
 		9E8E51F3255ED6F000C14184 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E8E51F2255ED6F000C14184 /* Assets.xcassets */; };
 		9E8E51F6255ED6F000C14184 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E8E51F5255ED6F000C14184 /* Preview Assets.xcassets */; };
+		9E948FF4255F1932001CCD16 /* CustomCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E948FF3255F1932001CCD16 /* CustomCorner.swift */; };
+		9E948FF7255F1ACB001CCD16 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E948FF6255F1ACB001CCD16 /* Home.swift */; };
+		9E948FFA255F289D001CCD16 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E948FF9255F289D001CCD16 /* Item.swift */; };
+		9E948FFD255F2934001CCD16 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E948FFC255F2934001CCD16 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9E6D52A5255F0563009D0377 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		9E6D52AB255F06D3009D0377 /* TabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButton.swift; sourceTree = "<group>"; };
 		9E8E51EB255ED6EE00C14184 /* MealMenuCustomTabBat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MealMenuCustomTabBat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E8E51EE255ED6EE00C14184 /* MealMenuCustomTabBatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealMenuCustomTabBatApp.swift; sourceTree = "<group>"; };
 		9E8E51F0255ED6EE00C14184 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9E8E51F2255ED6F000C14184 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E8E51F5255ED6F000C14184 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9E8E51F7255ED6F000C14184 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E948FF3255F1932001CCD16 /* CustomCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCorner.swift; sourceTree = "<group>"; };
+		9E948FF6255F1ACB001CCD16 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		9E948FF9255F289D001CCD16 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		9E948FFC255F2934001CCD16 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +45,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9E6D52A8255F0567009D0377 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9E6D52A5255F0563009D0377 /* TabBar.swift */,
+				9E6D52AB255F06D3009D0377 /* TabButton.swift */,
+				9E948FF3255F1932001CCD16 /* CustomCorner.swift */,
+				9E948FF6255F1ACB001CCD16 /* Home.swift */,
+				9E948FFC255F2934001CCD16 /* CardView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9E6D52A9255F0572009D0377 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9E948FF9255F289D001CCD16 /* Item.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		9E8E51E2255ED6EE00C14184 = {
 			isa = PBXGroup;
 			children = (
@@ -52,6 +84,8 @@
 		9E8E51ED255ED6EE00C14184 /* MealMenuCustomTabBat */ = {
 			isa = PBXGroup;
 			children = (
+				9E6D52A9255F0572009D0377 /* Model */,
+				9E6D52A8255F0567009D0377 /* View */,
 				9E8E51EE255ED6EE00C14184 /* MealMenuCustomTabBatApp.swift */,
 				9E8E51F0255ED6EE00C14184 /* ContentView.swift */,
 				9E8E51F2255ED6F000C14184 /* Assets.xcassets */,
@@ -138,7 +172,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E6D52A6255F0563009D0377 /* TabBar.swift in Sources */,
+				9E948FF4255F1932001CCD16 /* CustomCorner.swift in Sources */,
+				9E6D52AC255F06D3009D0377 /* TabButton.swift in Sources */,
 				9E8E51F1255ED6EE00C14184 /* ContentView.swift in Sources */,
+				9E948FFA255F289D001CCD16 /* Item.swift in Sources */,
+				9E948FF7255F1ACB001CCD16 /* Home.swift in Sources */,
+				9E948FFD255F2934001CCD16 /* CardView.swift in Sources */,
 				9E8E51EF255ED6EE00C14184 /* MealMenuCustomTabBatApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +309,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"MealMenuCustomTabBat/Preview Content\"";
+				DEVELOPMENT_TEAM = 4YGTHSUB42;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = MealMenuCustomTabBat/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -290,6 +331,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"MealMenuCustomTabBat/Preview Content\"";
+				DEVELOPMENT_TEAM = 4YGTHSUB42;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = MealMenuCustomTabBat/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
